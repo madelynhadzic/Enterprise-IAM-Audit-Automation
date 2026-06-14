@@ -13,3 +13,8 @@ When employees are terminated, manual de-provisioning workflows occasionally fai
 2. **Exception Analysis**: Cross-references employee unique identifiers to verify organizational status.
 3. **Risk Scoring**: Implements conditional logic to automatically assign `CRITICAL` risk tiers to unauthorized administrator profiles and `HIGH` risk tiers to standard user profiles.
 4. **Automated Reporting**: Outputs a formatted terminal dashboard and saves compliance findings to a tracking file (`audit_exceptions_report.csv`) for executive management remediation.
+
+## Why the Audit Report Isn't Uploaded Here
+You might notice that running the script creates a file called `audit_exceptions_report.csv`, but that file isn't uploaded to this GitHub repository. 
+
+As a cybersecurity and audit practice, I intentionally kept it off the public web. In a real company, security exception logs contain active vulnerabilities (like accounts that shouldn't be active). Uploading raw vulnerability lists to public repositories gives bad actors an easy roadmap to attack a system. Leaving it out ensures good data security habits!
