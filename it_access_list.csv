@@ -1,0 +1,14 @@
+employee_id,username,access_level
+E001,asmith,Admin
+E002,bjones,User
+E003,cbrown,User
+E004,dmiller,Admin
+E005,ewilson,User
+E006,fmiller,User
+E007,gtaylor,User
+E008,hthomas,Admin
+E010,jharris,Admin
+E011,kmartin,User
+E013,mgarcia,User
+E014,nmartinez,User
+
